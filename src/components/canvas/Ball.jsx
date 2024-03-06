@@ -10,10 +10,10 @@ const Ball = (props) => {
   const [decal]=useTexture([props.imgUrl])
  
   return (
-    <Float speed={1} rotationIntensity={1} floatIntensity={2}>
+    <Float >
       <ambientLight intensity={0.215}/>
       <directionalLight intensity={1} position={[0,0,0.05]} />
-      <mesh castShadow receiveShadow scale={2.75} >
+      <mesh  receiveShadow scale={2.75} >
         <icosahedronGeometry args={[1,1]}  />
        < meshStandardMaterial  color="#fff89eb" polygonOffset polygonOffsetFactor={-5} flatShading  />
        <Decal position={[0,0,1]} rotation={[2*Math.PI,0,6.25]} map={decal} />
@@ -24,7 +24,9 @@ const Ball = (props) => {
 
 const BallCanvas = ({icon}) => {
   return (
-    <Canvas frameloop='demand'
+    <Canvas
+    className='hidden lg:block'
+    frameloop='demand'
     gl={{preserveDrawingBuffer:true}}>
       <Suspense fallback={<Loader/>} >
         <OrbitControls enableZoom={false} 

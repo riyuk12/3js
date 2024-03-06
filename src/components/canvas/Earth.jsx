@@ -15,6 +15,7 @@ const Earth = () => {
 const EarthCanvas = () => {
   return (
     <Canvas
+      className="hidden lg:block"
       shadows
       frameloop='demand'
       dpr={[1, 2]}
