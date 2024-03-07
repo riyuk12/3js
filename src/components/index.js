@@ -7,6 +7,7 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
+import Extrapage from './Extrapage';
 
 export {
   Hero,
@@ -20,5 +21,6 @@ export {
   EarthCanvas, 
   BallCanvas, 
   Computers, 
-  StarsCanvas
+  StarsCanvas,
+  Extrapage
 }

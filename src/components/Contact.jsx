@@ -36,7 +36,7 @@ const Contact = () => {
       variants={slideIn("left","tween",0.2,1)}
       className='flex-[0.75] rounded-2xl bg-black-100 p-8'
       >
-        <p className={`${styles.sectionSubText}`}>Get in touch</p>
+        {/* <p className={`${styles.sectionSubText}`}>Get in touch</p>
         <h3 className={`${styles.sectionHeadText}`}> Contact</h3>
         <form ref={formRef}
         onSubmit={handleSubmit}
@@ -63,7 +63,8 @@ const Contact = () => {
           type='submit'
           className='bg-tertiary py-3 px-8 rounded-lg outlined-none w-fit border-none font-medium text-white-100 hover:bg-[#915eff] transition-all duration-300 ease-in-out flex items-center justify-center w-40 h-12 mx-auto'
           >{loading ?'Sending' :'Send'}</button>
-        </form>
+        </form> */}
+        <h1 className={`${styles.sectionHeadText}`} >Registrations opening <br /> soon ...</h1>
       </motion.div>
 
       <motion.div

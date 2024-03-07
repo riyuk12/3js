@@ -12,9 +12,10 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 rounded-full violet-gradient' />
         </div>
         <div>
-          <h1 className={`${styles.heroSubText}`}>The Devbloc club presents <br /><span className={`${styles.heroHeadText} text-[#915eff]`}>DevZone 1.0</span> </h1>
+          <h1 className={`${styles.heroSubText}`}>Welcome To <br /><span className={`${styles.heroHeadText} text-[#915eff]`}>DevZone 1.0</span> </h1>
           <p className={`${styles.heroSubText} mt-8 text-white-100`}>
-            A live tech Hackathon for developers,<br className=' sm:block hidden'/> designers, and tech enthusiasts.
+          Invent &#8226; Innovate &#8226; Inspire
+
           </p>
         </div>
 
