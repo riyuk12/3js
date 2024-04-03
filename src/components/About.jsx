@@ -22,20 +22,18 @@ const About = () => {
         <p className={styles.sectionSubText} >Introduction</p>
         <h1 className={styles.sectionHeadText}>What is Devzone</h1>
       </motion.div>
-      <motion.p variants={fadeIn("","",0.1,1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'> DevZone 1.0, the inaugural
-hackathon hosted by Sushant University,
-set to blaze a trail of innovation and
-technological prowess in the heart of
-Gurugram!
- </motion.p>
+      <motion.p variants={fadeIn("","",0.1,1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'> 
+      Welcome to DevZone 1.0, the inaugural hackathon hosted by Sushant University, set to blaze a trail of innovation and technological prowess in the heart of Gurugram! 
+      DevZone 1.0 is not just another hackathon it's a dynamic platform where students from colleges across Delhi and the NCR region will come together to tackle challenges. 
+      </motion.p>
       <div className='mt-20 flex flex-wrap justify-center gap-10'>
         {services.map((service, index) => (
-          <motion.div  key={index} variants={fadeIn("right", "spring", index*0.2, 0.3)} className='flex  flex-col items-center max-w-[250px] text-center  gap-4' onClick={()=>{setdata({visible:true,title:service.title,subtitle:service.subtitle,image:service.icon,content:""})}}>
+          <motion.div  key={index} variants={fadeIn("right", "spring", index*0.2, 0.3)} className='flex  flex-col items-center max-w-[250px] text-center  gap-4'>
             <a href="#extrapage">
               
               <Tilt options={{ max: 30, scale: 1.2 ,speed:450 }}>
                 <div className='bg-tertiary green-pink-gradient shadow-card p-[1px] w-auto rounded-3xl min-w-[250px]  gap-10 h-auto flex flex-col justify-center items-center'>
-                  <div className='w-full h-full min-h-[300px] gap-5 rounded-3xl flex flex-col justify-evenly items-center bg-tertiary'>
+                  <div className='w-full h-full min-h-[220px] gap-5 rounded-3xl flex flex-col justify-evenly items-center bg-tertiary'>
                     <div className='w-20 h-20 rounded-full bg-[#915eff] flex justify-center items-center'>
                       <img src={service.icon} alt={service.title} className='w-10 h-10' />
                     </div>

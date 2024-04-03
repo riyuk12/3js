@@ -49,7 +49,7 @@ const Experience = () => {
         {/* <p className={styles.sectionSubText} >Commonly asked questions</p> */}
         <h1 className={styles.sectionHeadText}>Tracks</h1>
       
-      <p  className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ea blanditiis sapiente repellendus soluta esse quisquam, dolores sed magnam eveniet similique rerum qui corporis aperiam tenetur modi nostrum, sunt ratione? </p>
+      <p  className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'></p>
 
     </div>
 
