@@ -38,7 +38,7 @@ const Contact = () => {
     <div className='xl:mt-12 xl:flex-row flex-col-reverse justify-center items-center flex gap-10 overflow-hidden'>
       <motion.div 
       variants={slideIn("left","tween",0.2,1)}
-      className='flex-[0.75] rounded-2xl bg-black-100 p-8'
+      className='rounded-2xl bg-black-100 p-8 '
       >
        
         <MainForm />
