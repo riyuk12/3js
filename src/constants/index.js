@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    education,
+    artificial
   } from "../assets";
   
   export const navLinks = [
@@ -32,7 +34,7 @@ import {
     },
     {
       id: "work",
-      title: "Roadmap",
+      title: "Tracks",
     },
     {
       id: "contact",
@@ -43,22 +45,22 @@ import {
   const services = [
     {
       title: "Prizes",
-      subtitle: "Cumulative prize pool of 30 thousand rupees",
+      subtitle: "Prizes worth 15K+",
       icon: web,
     },
     {
-      title: "Themes",
-      subtitle: "Various themes to choose from and show your skills",
+      title: "Location",
+      subtitle: "Sushant University",
       icon: mobile,
     },
     {
-      title: "Keynote",
-      subtitle: "Keynote speakers from the pinnacle of the industry",
+      title: "Dates",
+      subtitle: "19th-20th April",
       icon: backend,
     },
     {
-      title: "Freebies",
-      subtitle: "Freebies for all the participants",
+      title: "Registration Fees",
+      subtitle: "Rs. 120 per participant",
       icon: creator,
     },
   ];
@@ -121,61 +123,34 @@ import {
   const experiences = [
     {
       title: "",
-      company_name: "Starbucks",
-      icon: starbucks,
+      company_name: "Education",
+      icon: education,
       iconBg: "#383E56",
-      date: "education",
+      date: "Education",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "This theme is centered around leveraging web development to enhance various aspects of education.",
+        "Participants are encouraged to brainstorm, design, and implement web-based solutions that address challenges in education, promote inclusivity, foster engagement, and improve learning outcomes.",
+        "Theme Overview: The theme of this hackathon is centered around leveraging web development to enhance various aspects of education.",
+        "Participants are encouraged to brainstorm, design, and implement web-based solutions that address challenges in education, promote inclusivity, foster engagement, and improve learning outcomes.",
       ],
     },
     {
       title: "React Native Developer",
       company_name: "Tesla",
-      icon: tesla,
+      icon: artificial,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "AI Based Utility Tools",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "The theme of this hackathon is centered around leveraging AI technologies to develop innovative utility tools that enhance the software development process.", 
+        "Develop AI-powered tools that assist developers in generating code snippets, automating repetitive tasks, and optimizing code quality, readability, and performance.",
+        "Participants are encouraged to explore the capabilities of AI, machine learning (ML), natural language processing (NLP), computer vision, and other AI-related domains to create intelligent solutions that address challenges faced by developers, streamline workflows, and improve productivity."
       ],
     },
   ];
   
   const testimonials = [
     {
-      testimonial:["DevZone 1.0, the inaugural hackathon hosted by Sushant University, set to blaze a trail of innovation and technological prowess in the heart of Gurugram! ","It is not just another hackathon; it's a dynamic platform where students from colleges across Delhi and the NCR region will come together to tackle challenges.","Join us on this exciting journey as we embark on a mission to invent, innovate, and inspire the future of education and technology."],
+      testimonial:["Sushant University (Erstwhile Ansal University) was established in 2012 under the Haryana Private Universities Act 2006. Located in the heart of Gurugram, India’s largest hub of National and Fortune 500 companies. We have eight schools offering programmes in Architecture, Design, Law, Management, Hospitality, Engineering, Health Sciences and Planning & Development.", "We are a university with the core ideology of being futuristic with the mission AHEAD FOR LIFE. The curriculum design is guided by inter and trans-disciplinary approach incorporating pedagogies that expand learning opportunities, ensuring higher order learning outcomes."],
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -249,6 +224,8 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+
+  const formUrl= "https://docs.google.com/forms/d/e/1FAIpQLSeBKW_-sV2AgSJYjjJh_dwga7IDMbbNMW2uS6i9I-EzMo7GKg/viewform?usp=sf_link";
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, formUrl };
   

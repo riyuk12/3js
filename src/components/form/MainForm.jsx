@@ -5,12 +5,10 @@ import { Plus } from "lucide-react"
 import { Trash} from "lucide-react"
 import {Client,Databases,ID } from "appwrite"
 import { json } from "react-router-dom"
+import { formUrl } from "../../constants"
 
 
 const MainForm=()=> {
-
-    
-
       const handleSubmit = async (event) => {
         event.preventDefault();
     
@@ -67,11 +65,10 @@ const MainForm=()=> {
 
   return (
     <>
-    
-        
-        <p className={`${styles.sectionSubText}`}>Are You Ready</p>
-        <h3 className={`${styles.sectionHeadText}`}> Register</h3>
-        <form 
+        <p className={`${styles.sectionSubText}`}>Click the button below to register</p>
+        {/* <h3 className={`${styles.sectionHeadText}`}> Register</h3> */}
+        <a href={formUrl} className="bg-[#915eff] ease-in-out flex items-center justify-center w-40 h-12 mx-auto">Register Now</a>
+        {/* <form 
             onSubmit={handleSubmit}
         className='mt-12 flex flex-col gap-8'>
 
@@ -152,7 +149,7 @@ const MainForm=()=> {
         type='submit'
         className='bg-tertiary py-3 px-8 rounded-lg outlined-none w-fit border-none font-medium text-white-100 hover:bg-[#915eff] transition-all duration-300 ease-in-out flex items-center justify-center w-40 h-12 mx-auto'
         >{'Send'}</button>
-        </form>
+        </form> */}
     </>
   )
 }
